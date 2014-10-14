@@ -1,0 +1,20 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MyActivity" >
+    <item
+        android:id="@+id/load"
+        android:title="No ID"
+        android:orderInCategory="1"
+        android:showAsAction="always"/>
+    <item
+        android:id="@+id/idLoad"
+        android:title="With ID"
+        android:orderInCategory="2"
+        android:showAsAction="always"/>
+    <item
+        android:id="@+id/correct"
+        android:title="Correct"
+        android:orderInCategory="3"
+        android:showAsAction="always"/>
+
+</menu>
